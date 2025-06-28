@@ -1,5 +1,4 @@
-
-import React from 'react';
+import React from "react";
 import {
   NavBar,
   HeroSection,
@@ -9,8 +8,8 @@ import {
   ChallengeSection,
   BornVaultSection,
   RoadmapSection,
-  JoinSection
-} from '../BhabitSiteSections';
+  JoinSection,
+} from "../BhabitSiteSections";
 
 function App() {
   return (
