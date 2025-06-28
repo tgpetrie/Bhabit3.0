@@ -78,13 +78,13 @@ function App() {
               </button>
             </form>
             <p>
-              <strong>Welcome!</strong> {userName ? userName : "[Your Name]"}
+              <strong>Welcome!</strong> {userName ? userName : "Chris Petrie"}
               <br />
-              This is my first React + Cloudflare project.
+              This is Chris's first React + Cloudflare project.
               <br />
               Connect with me on{" "}
               <a
-                href="https://github.com/"
+                href="https://github.com/tgpetrie"
                 target="_blank"
                 rel="noopener noreferrer"
               >
@@ -100,6 +100,9 @@ function App() {
       </div>
       {/* 👇 Add a welcome message */}
       <h2>Thanks for visiting my project 🚀</h2>
+      {/* You can add more custom sections or features below as you learn! */}
+      {/* Change the line above to test HMR */}
+      {/* <h2>Welcome to my awesome Vite + React app! 🎉</h2> */}
       <div className="card">
         <button
           onClick={() => setCount((count) => count + 1)}
